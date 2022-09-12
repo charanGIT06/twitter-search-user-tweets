@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter Search</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Twitter Search</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <nav class="nav">
+            <h1>Twitter Search</h1>
+        </nav>
+        <section class="actions">
+            <div class="action-block">
+                <h3>Enter username:</h3>
+                <input type="text" id="search" class="search" placeholder="Ex: mkbhd">
+                <button class="btn" onclick="setUserName()">Search</button>
+                <button class="btn">Reset</button>
+
+                <p class="textBox">Will be changed</p>
+            </div>
+        </section>
+    </body>
 </html>

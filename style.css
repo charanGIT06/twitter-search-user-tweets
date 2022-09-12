@@ -1,0 +1,31 @@
+:root {
+    --twitter-blue: #1DA1F2;
+    --sans: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--sans);
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: var(--twitter-blue);
+    color: white;
+    text-align: center;
+    padding: 0.05rem;  
+}
+
+/* action section */
+.actions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
